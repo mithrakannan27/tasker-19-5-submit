@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.whole{
+    display: flex;
+}
+.onehalf{
+    background-color: rgb(236, 237, 238);
+}
+img{
+    padding: 120px 160px;
+}
+.twohalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 170px;
+}
+.check{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.signup{
+    display: flex;
+    gap: 3px;
+}
+.wel{
+font-size:40px;
+margin-bottom: 20px;
+}
+.greytext{
+    color: rgb(117, 119, 122);
+    font-size: 16px;
+}
+.in{
+    width: 340px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid rgb(102, 101, 101) 1px ;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+#signin{
+    background-color: rgb(141, 56, 233);
+    color: white;
+    width: 354px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid rgb(141, 56, 233) 1px;
+}
+#signup{
+    font-size: 16px;
+    color: rgb(141, 56, 233);
+    font-weight: bold;
+}
+.m{
+    font-weight: bold;
+    color: rgb(102, 101, 101);
+}
+#message{
+    background-color: rgb(236, 237, 238);
+    padding:10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#message h4{
+    margin-bottom: 10px;
+}
+#message li{
+    margin-left: 15px;
+}
+#invalid {
+    color: red;
+    display: none;
+}
+#signup:hover{
+    cursor: pointer;
+}

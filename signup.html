@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasker</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="whole">
+        <div class="onehalf">
+            <img src="assets/WhatsApp Image 2024-05-02 at 16.05.46_91bc46b9.jpg" alt="" style="height: 470px;width: 450px;">
+        </div>
+        <div class="twohalf">
+            <p class="wel"> <b> Welcome to Tasker</b></p>
+            <p class="greytext" style="margin-bottom: 10px;">Please insert your informations to access your tasks.</p>
+            <div class="email">
+            <p class="m">Email</p>
+            <input type="text" placeholder="user" class="in" id="mail">
+            <p class="m">Password</p>
+            <input type="password" placeholder="Insert Your Password" class="in" id="myinput" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            <p id="invalid">Incorrect Password or Invalid mail</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <p class="greytext">Remember Me</p>
+            </div>
+            <button id="signup">Sign Up</button>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

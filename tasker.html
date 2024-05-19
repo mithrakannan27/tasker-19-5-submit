@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasker</title>
+    <link rel="stylesheet" href="tasker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="whole">
+
+<!-- 1st block -->
+
+        <div class="one">
+            <img src="assets/WhatsApp Image 2024-05-02 at 16.05.46_91bc46b9.jpg" alt="">
+        <div class="onea">
+        <div id="tasks">
+            <i class="fa-solid fa-clipboard-check" style="font-size: 20px;"></i>
+            <p id="ta">Tasks</p>
+        </div>
+        <div id="catogries">
+            <i class="fa-solid fa-folder-minus"></i>
+            <p id="ca">Catogries</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+<!-- drop down list -->
+
+
+        <div id="list">
+            <div id="p">
+                <i class="fa-solid fa-folder-minus"></i>
+                <p id="cat">Catogries</p>
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="pp" id="none">
+                <div class="grey"></div>
+                <p>None</p>
+            </div>
+            <div class="ppp" id="home">
+                <div class="red"></div>
+                <p>Home</p>
+            </div>
+            <div class="pppp" id="school">
+                <div class="yellow"></div>
+                <p>School</p>
+            </div>
+            <div class="ppppp" id="shop">
+                <div class="blue"></div>
+                <p>Shopping list</p>
+            </div>
+            <div class="pppppp" id="newtype">
+                <i class="fa-solid fa-square-plus" style="font-size: large;"></i>
+                <p>Add new</p>
+            </div>
+            </div>
+    
+<!-- list over -->
+
+            <div id="settings">
+                <i class="fa-solid fa-gear"></i>
+                <p id="se">Settings</p>
+            </div>
+        </div>
+            <div id="logout">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                <p id="log">Logout</p>
+            </div>
+        </div>
+
+<!-- 1st block -->
+
+<!-- 2st block -->
+
+<!-- task-bar -->
+
+        <div class="two">
+            <p id="a">All your tasks</p>
+            <div class="twoa">
+                <p id="t">Tasks</p>
+            <div class="flexc">
+                <button id="all" class="but" >All</button>
+                <button id="done" class="but">Done</button>
+                <button id="notdone" class="but">Not Done</button>
+                <i class="fa-solid fa-filter" style="color:  rgb(183, 182, 182) ;"></i>
+            </div>
+            </div>
+
+<!-- task-bar -->
+
+<!-- task -->
+
+<div id="task-container">
+                <div class="task" id="task">
+                    <div id="radio">
+                        <div id="on"></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="e">
+                    <p id="ex">Example task</p>
+                    <div class="ex">
+                        <div class="red"></div>
+                        <p id="cattype">Home</p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-pen" id="pen"></i>
+                <i class="fa-solid fa-trash" id="trash"></i>
+                
+<!-- popup  -->
+
+        <div id="popup" class="popup">
+            <div class="overlay"></div>
+            <div id="del">
+                <p class="msg">Are you sure you want to delete this task?</p>
+                <div id="b">
+                <button id="cancelbut">Cancel</button>
+                <button id="deletebut">Delete</button>
+            </div>
+            </div>
+        </div>
+
+<!-- popup  -->
+</div>
+</div>
+
+<!-- task -->
+
+<!-- add button -->
+
+<div class="add" id="plus">
+    <i class="fa-solid fa-square-plus"></i>
+    <p>Add a task</p>
+</div>
+
+<!-- add button -->
+
+<!-- add popup -->
+
+<div id="addelement">
+    <div class="overlay"></div>
+    <div id="element">
+        <p class="g">Insert name</p>
+        <input type="text" placeholder="Task name" id="type">
+        <p class="g">Select a categorie</p>
+        <select name="" id="select">
+        <option value="None">
+                <div class="pp">
+                <div class="grey"></div>
+                <p>None</p>
+                </div>
+        </option>
+        <option value="Home">
+            <div class="ppp">
+                <div class="red"></div>
+                <p>Home</p>
+            </div>
+        </option>
+        <option value="School">
+            <div class="pppp">
+                <div class="yellow"></div>
+                <p>School</p>
+            </div>
+        </option>
+        <option value="Shopping List">
+            <div class="ppppp">
+                <div class="blue"></div>
+                <p>Shopping list</p>
+            </div>
+        </option>
+        </select>
+        <div id="bbbb">
+        <button id="can">Cancel</button>
+        <button id="addd">Add</button>
+        </div>
+    </div>
+</div>
+<!-- add popup -->
+</div>
+
+<!-- 2st block -->
+</div>
+  
+<script src="tasker.js"></script>
+</body>
+</html>
+
